@@ -584,3 +584,70 @@ a {
   color: var(--muted);
   font-weight: 600;
 }
+
+/* Yhteystiedot-osio */
+.pf-contact {
+  padding: 0 0 84px;
+}
+
+.pf-contact-card {
+  padding: 40px;
+  border-radius: 24px;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(15, 23, 42, 0.6));
+  text-align: center;
+}
+
+.pf-contact-card h2 {
+  margin-top: 8px;
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.pf-contact-desc {
+  margin: 12px auto 0;
+  max-width: 520px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.pf-contact-actions {
+  margin-top: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.pf-email-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 6px 6px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--card-border);
+  background: rgba(7, 11, 20, 0.8);
+}
+
+.pf-email-text {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.pf-copy-btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: var(--accent);
+  color: #04101c;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.pf-copy-btn:hover {
+  filter: brightness(1.1);
+}
