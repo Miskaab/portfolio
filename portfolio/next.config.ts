@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // Mahdollistaa julkaisun GitHub Pagesiin
+  output: "export",
+  basePath: "/portfolio",
+  assetPrefix: "/portfolio",
   images: {
-    unoptimized: true, // GitHub Pages ei tue Next.js:n palvelinpuolen kuvanoptimointia
+    unoptimized: true,
   },
 };
 
